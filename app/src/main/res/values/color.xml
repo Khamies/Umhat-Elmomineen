@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="ToolBars_Blue">#2196F3</color>
+    <color name="StatusBar_Blue">#1976D2</color>
+
+    <color name="ToolBars_black">#000000</color>
+    <color name="ToolBars_pink">#f5d7d3</color>
+    <color name="ToolBars_White">#FFFFFF</color>
+    <color name="Tool_Bars_brown">#6b1301</color>
+
+
+
+
+</resources>

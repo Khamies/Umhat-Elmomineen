@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wordpress.waleeddaud" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Chapter_one.Begining"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chapter_one.Mothers"
+            android:label="@string/title_activity_mothers" >
+        </activity>
+        <activity
+            android:name=".Chapter_two.Mother_Contents"
+            android:label="@string/title_activity_mother__contents" >
+        </activity>
+        <activity
+            android:name=".Umahat.One"
+            android:label="@string/title_activity_one" >
+        </activity>
+        <activity
+            android:name=".Umahat.Two"
+            android:label="@string/title_activity_two" >
+        </activity>
+        <activity
+            android:name=".Umahat.Three"
+            android:label="@string/title_activity_three" >
+        </activity>
+        <activity
+            android:name=".Umahat.Four"
+            android:label="@string/title_activity_four" >
+        </activity>
+        <activity
+            android:name=".Umahat.Five"
+            android:label="@string/title_activity_five" >
+        </activity>
+        <activity
+            android:name=".Umahat.Six"
+            android:label="@string/title_activity_six" >
+        </activity>
+        <activity
+            android:name=".Umahat.Seven"
+            android:label="@string/title_activity_seven" >
+        </activity>
+        <activity
+            android:name=".Umahat.Eight"
+            android:label="@string/title_activity_eight" >
+        </activity>
+        <activity
+            android:name=".Umahat.Nine"
+            android:label="@string/title_activity_nine" >
+        </activity>
+        <activity
+            android:name=".Umahat.Ten"
+            android:label="@string/title_activity_ten" >
+        </activity>
+        <activity
+            android:name=".Umahat.Eleven"
+            android:label="@string/title_activity_eleven" >
+        </activity>
+        <activity
+            android:name=".z_Article.Article_1"
+            android:label="@string/title_activity_article" >
+        </activity>
+        <activity
+            android:name=".z_Article.Article_2"
+            android:label="@string/title_activity_article_2" >
+        </activity>
+        <activity
+            android:name=".z_Article.Article_3"
+            android:label="@string/title_activity_article_3" >
+        </activity>
+        <activity
+            android:name=".z_Article.Article_4"
+            android:label="@string/title_activity_article_4" >
+        </activity>
+        <activity
+            android:name=".z_Article.Article_5"
+            android:label="@string/title_activity_article_5" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.Books"
+            android:label="@string/title_activity_books" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.My_App"
+            android:label="@string/title_activity_my__app" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.Book_1"
+            android:label="@string/title_activity_book_1" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.Book_2"
+            android:label="@string/title_activity_book_2" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.Book_3"
+            android:label="@string/title_activity_book_3" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.Contact_us"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+
+        <receiver android:name=".z_Conculsion.Caller" >
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".z_Conculsion.Check_Connection"
+            android:label="@string/title_activity_check__connection" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.Connection_Faild"
+            android:label="@string/title_activity_connection__faild" >
+        </activity>
+        <activity
+            android:name=".z_Conculsion.Nablsi_website"
+            android:label="@string/title_activity_nablsi_website" >
+        </activity>
+    </application>
+
+</manifest>
