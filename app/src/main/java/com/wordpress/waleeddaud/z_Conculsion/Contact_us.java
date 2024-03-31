@@ -51,7 +51,7 @@ public class Contact_us extends ActionBarActivity {
                 String text=editText2.getText().toString();
                 Intent intent=new Intent(Intent.ACTION_SEND);
                 intent.setType("message/rfc822");
-                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"hyberthread@gmail.com"});
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"khamiesw@outlook.com"});
                 intent.putExtra(Intent.EXTRA_SUBJECT,subject);
                 intent.putExtra(Intent.EXTRA_TEXT,text);
 
